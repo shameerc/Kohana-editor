@@ -1,0 +1,41 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+$config["int"]          ='1';
+$config["editor"]       ='TinyMce';
+$config["mode"]         ='basic';
+$config["skin"]         ='1';
+$config["selector"]     ='tinymce';
+$config["location"]     ='top';
+$config["align"]        ='left';
+$config["status_bar"]   ='bottom';
+$config["fonts"]        =TRUE;
+$config["paste"]        =TRUE;
+$config["search_replace"]=TRUE;
+$config["insert_date"]  =TRUE;
+$config["date_format"]  ='%Y-%m-%d';
+$config["insert_time"]  =TRUE;
+$config["time_format"]  ='%H:%M:%S';
+$config["colours"]      =TRUE;
+$config["table"]        =TRUE;
+$config["smileys"]      =TRUE;
+$config["media"]        =TRUE;
+$config["horizontal_rule"]=TRUE;
+$config["directionality"]=TRUE;
+$config["fullscreen"]   =TRUE;
+$config["style"]        =TRUE;
+$config["layer"]        =TRUE;
+$config["xhtml_extras"] =TRUE;
+$config["visual_chars"] =TRUE;
+$config["non_breaking"] =TRUE;
+$config["block_quote"]  =TRUE;
+$config["template"]     =TRUE;
+$config["adv_image"]    =TRUE;
+$config["adv_link"]     =TRUE;
+$config["inline_popup"] =TRUE;
+$config["safari"]       =TRUE;
+$config["auto_save"]    =TRUE;
+$config["context_menu"] =TRUE;
+$config["global_js_directory"] = '../../system/library/editor/tiny_mce/';
+
+return array('default' => $config);
+?>
